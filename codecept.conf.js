@@ -36,9 +36,14 @@ exports.config = {
     },
     stepByStepReport:{
       enabled: true,
-      deleteSuccessful: true
+      deleteSuccessful: false,
+      screenshotsForAllureReport: true,
+    },
+    allure: {
+      enabled: true,
+      
+     
     }
 
-  }
-
+  },
 }
