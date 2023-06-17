@@ -41,8 +41,7 @@ exports.config = {
     },
     allure: {
       enabled: true,
-      
-     
+      outputDir: "output" // direktori output untuk laporan Allure
     }
 
   },
