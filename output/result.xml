@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="57.454" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-06-17T13:42:44" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="OrangeHRMAndTheInternetChecbox" timestamp="2023-06-17T13:42:44" tests="5" file="/Users/devo/Documents/codecept js project/codeceptjs with allure report/OrangeHRMAndTheInternetChecbox_test.js" time="57.452" failures="0">
+    <testcase name="OrangeHRMAndTheInternetChecbox: 1.amOnPage-Test" time="15.581" classname="1.amOnPage-Test">
+    </testcase>
+    <testcase name="OrangeHRMAndTheInternetChecbox: 2. Testcase2-test" time="7.944" classname="2. Testcase2-test">
+    </testcase>
+    <testcase name="OrangeHRMAndTheInternetChecbox: 3.GrabText-Test" time="5.359" classname="3.GrabText-Test">
+    </testcase>
+    <testcase name="OrangeHRMAndTheInternetChecbox: 4.SelectOption-Test" time="5.178" classname="4.SelectOption-Test">
+    </testcase>
+    <testcase name="OrangeHRMAndTheInternetChecbox: 5.Wait-Test" time="8.980" classname="5.Wait-Test">
+    </testcase>
+  </testsuite>
+</testsuites>

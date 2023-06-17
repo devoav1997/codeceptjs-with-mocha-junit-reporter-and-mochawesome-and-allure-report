@@ -1,0 +1,253 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-06-17T13:49:55.075Z",
+    "end": "2023-06-17T13:50:51.937Z",
+    "duration": 56862,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8b0f9bf5-69d9-4e19-97fe-25bb2f287f62",
+      "title": "",
+      "fullFile": "/Users/devo/Documents/codecept js project/codeceptjs with allure report/OrangeHRMAndTheInternetChecbox_test.js",
+      "file": "/OrangeHRMAndTheInternetChecbox_test.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ffbfaf45-8679-4074-b67f-2e9a9616dce9",
+          "title": "OrangeHRMAndTheInternetChecbox",
+          "fullFile": "/Users/devo/Documents/codecept js project/codeceptjs with allure report/OrangeHRMAndTheInternetChecbox_test.js",
+          "file": "/OrangeHRMAndTheInternetChecbox_test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"OrangeHRMAndTheInternetChecbox\"",
+              "fullTitle": "OrangeHRMAndTheInternetChecbox \"before all\" hook: codeceptjs.beforeSuite in \"OrangeHRMAndTheInternetChecbox\"",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "5497b052-3646-49a9-bacb-33df99f30020",
+              "parentUUID": "ffbfaf45-8679-4074-b67f-2e9a9616dce9",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"OrangeHRMAndTheInternetChecbox\"",
+              "fullTitle": "OrangeHRMAndTheInternetChecbox \"before each\" hook: codeceptjs.before in \"OrangeHRMAndTheInternetChecbox\"",
+              "timedOut": false,
+              "duration": 1639,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "d31982e7-1afc-418f-b61d-5288cb9108ac",
+              "parentUUID": "ffbfaf45-8679-4074-b67f-2e9a9616dce9",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"OrangeHRMAndTheInternetChecbox\"",
+              "fullTitle": "OrangeHRMAndTheInternetChecbox \"after all\" hook: codeceptjs.afterSuite in \"OrangeHRMAndTheInternetChecbox\"",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "cebf03a9-679c-47f0-b879-979a768e1ecf",
+              "parentUUID": "ffbfaf45-8679-4074-b67f-2e9a9616dce9",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs in \"OrangeHRMAndTheInternetChecbox\"",
+              "fullTitle": "OrangeHRMAndTheInternetChecbox \"after each\" hook: finalize codeceptjs in \"OrangeHRMAndTheInternetChecbox\"",
+              "timedOut": false,
+              "duration": 445,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "aa4ad36c-7773-43aa-a560-4b38ad7d90d9",
+              "parentUUID": "ffbfaf45-8679-4074-b67f-2e9a9616dce9",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "1.amOnPage-Test",
+              "fullTitle": "OrangeHRMAndTheInternetChecbox: 1.amOnPage-Test",
+              "timedOut": false,
+              "duration": 16258,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I}) => {\n I.amOnPage('/'); // -> siteurl configure in config file\n I.wait(1);\n I.amOnPage('/doodles'); // -> siteurl configured in config file + /page\n I.wait(1);\n I.amOnPage('https://opensource-demo.orangehrmlive.com/'); // -> siteurl \n I.wait(1);\n I.amOnPage('https://the-internet.herokuapp.com/dynamic_loading'); // -> siteurl/page\n I.wait(1);",
+              "err": {},
+              "uuid": "d55feb14-7f3b-4fd4-9bc4-f79652f5c109",
+              "parentUUID": "ffbfaf45-8679-4074-b67f-2e9a9616dce9",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "2. Testcase2-test",
+              "fullTitle": "OrangeHRMAndTheInternetChecbox: 2. Testcase2-test",
+              "timedOut": false,
+              "duration": 8103,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I}) => {\n    I.amOnPage('https://opensource-demo.orangehrmlive.com/'); \n    I.waitForText(\"Login\");\n    I.see(\"Login\");\n    I.fillField(\"//input[@placeholder='Username']\", \"Admin\");\n    I.fillField(\"//input[@placeholder='Password']\", \"admin123\");\n    I.click(\"//button[@type='submit']\");\n    I.waitForText(\"Dashboard\",4);\n    I.see(\"Dashboard\");\n    I.dontSee(\"Login\");",
+              "err": {},
+              "uuid": "a508d85e-3f75-43e7-8f79-f6af8d5c77a5",
+              "parentUUID": "ffbfaf45-8679-4074-b67f-2e9a9616dce9",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "3.GrabText-Test",
+              "fullTitle": "OrangeHRMAndTheInternetChecbox: 3.GrabText-Test",
+              "timedOut": false,
+              "duration": 4279,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I}) => {\n    I.amOnPage('https://the-internet.herokuapp.com/checkboxes');\n    let a = await I.grabTextFrom('#checkboxes');\n    console.log(a);",
+              "err": {},
+              "uuid": "246823e5-3524-4367-9482-09161ad5653f",
+              "parentUUID": "ffbfaf45-8679-4074-b67f-2e9a9616dce9",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "4.SelectOption-Test",
+              "fullTitle": "OrangeHRMAndTheInternetChecbox: 4.SelectOption-Test",
+              "timedOut": false,
+              "duration": 5128,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I}) => {\n    I.amOnPage('https://the-internet.herokuapp.com/dropdown');\n    I.selectOption('#dropdown','Option 1');\n    I.wait(1);",
+              "err": {},
+              "uuid": "5c65b3d5-5625-4751-a561-bb405cfcd07e",
+              "parentUUID": "ffbfaf45-8679-4074-b67f-2e9a9616dce9",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "5.Wait-Test",
+              "fullTitle": "OrangeHRMAndTheInternetChecbox: 5.Wait-Test",
+              "timedOut": false,
+              "duration": 8893,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I}) => {\n    I.amOnPage('https://the-internet.herokuapp.com/dynamic_loading/1');\n    I.click(\"//button[contains(text(),'Start')]\");\n    I.waitForText('Hello World!', 10);",
+              "err": {},
+              "uuid": "8157c326-ef10-42de-a36c-59eaf17a3932",
+              "parentUUID": "ffbfaf45-8679-4074-b67f-2e9a9616dce9",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d55feb14-7f3b-4fd4-9bc4-f79652f5c109",
+            "a508d85e-3f75-43e7-8f79-f6af8d5c77a5",
+            "246823e5-3524-4367-9482-09161ad5653f",
+            "5c65b3d5-5625-4751-a561-bb405cfcd07e",
+            "8157c326-ef10-42de-a36c-59eaf17a3932"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 42661,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "mochaFile": "output/result.xml",
+        "reportDir": "output"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
